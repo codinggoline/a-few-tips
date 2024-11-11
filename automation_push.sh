@@ -1,7 +1,6 @@
 #!/bin/bash
 
 message=$1
-branch=$2
 
 git add .
 
@@ -11,7 +10,7 @@ git commit -m "$message"
 
 git status
 
-git push push origin "$branch"
+git push push origin pro12x
 
 # ========================= OR ===========================
 #update_and_push() {
