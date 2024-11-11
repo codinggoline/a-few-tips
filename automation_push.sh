@@ -11,7 +11,7 @@ git commit -m "$message"
 
 git status
 
-git push push origin $branch
+git push push origin "$branch"
 
 # ========================= OR ===========================
 #update_and_push() {
